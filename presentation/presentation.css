@@ -1,0 +1,215 @@
+
+body {
+  font-family: 'Raleway', 'Segoe UI', Arial, sans-serif;
+  background-color: #fff;
+  color: #222;
+  scroll-behavior: smooth;
+}
+
+
+.navbar-d8 {
+  background-color: #076633; 
+}
+.navbar-d8 .nav-link {
+  color: #fff !important;
+  font-weight: 600;
+}
+.navbar-d8 .nav-link:hover {
+  color: #F8AF32 !important; 
+}
+.navbar-d8 .navbar-brand {
+  color: #fff !important;
+}
+
+
+
+.hero {
+  height: 80vh;
+  background: linear-gradient(rgba(7,102,51,0.8), rgba(7,102,51,0.8)), url("../img/josh_boat.png") center/cover no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.hero-alt {
+  height: 50vh;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.section-title {
+  color: #076633;
+  font-weight: bold;
+  position: relative;
+}
+.section-title::after {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 4px;
+  background: #F8AF32;
+  margin: 10px auto 0;
+  border-radius: 2px;
+}
+
+.card h3 {
+  text-align: center;
+}
+
+.card img {
+  width: 150px;
+  height: 150px;       
+  border-radius: 50%;  
+  object-fit: cover;   
+}
+
+
+.text-d8 {
+  color: #076633;
+  font-size: 2rem;
+}
+
+
+.d8-footer {
+  background-color: #076633;
+  color: #fff;
+}
+
+
+img.rounded-circle {
+  border-radius: 50%;
+  object-fit: cover;
+  box-shadow: 0 8px 15px rgba(0,0,0,0.2);
+}
+
+
+
+.timeline {
+  position: relative;
+  max-width: 700px;
+  margin: auto;
+  padding: 0 20px;
+}
+
+.timeline::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 4px;
+  height: 100%;
+  background: #f8af32; 
+}
+
+.timeline-item {
+  display: flex;
+  justify-content: flex-start;
+  margin-bottom: 30px;
+  position: relative;
+}
+
+.timeline-dot {
+  width: 18px;
+  height: 18px;
+  background: #076633; 
+  border: 3px solid #fff;
+  border-radius: 50%;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 1;
+}
+
+.timeline-content {
+  background: #fff;
+  padding: 15px 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+  width: 45%;
+}
+
+.timeline-item:nth-child(odd) .timeline-content {
+  margin-right: auto;
+  text-align: right;
+}
+
+.timeline-item:nth-child(even) .timeline-content {
+  margin-left: auto;
+  text-align: left;
+}
+
+.timeline-content h5 {
+  color: #076633; 
+  margin-bottom: 5px;
+}
+
+.timeline-content p {
+  color: #555;
+  font-size: 0.9rem;
+}
+
+.logo-xp {
+  height: 60px;      
+  width: auto;       
+  object-fit: contain;
+  margin-right: 10px;
+}
+
+
+#motivations .card {
+  background: #076633; /* vert D8 */
+  color: #fff;
+  border: 3px solid #f8af32; /* jaune D8 */
+}
+
+#motivations .card p {
+  color: #fff;
+  font-size: 1.1rem;
+  line-height: 1.6;
+}
+
+#competences p.text-center {
+  font-size: 1.1rem;
+  color: #333; /* ou #fff si fond vert foncé */
+  margin-bottom: 40px;
+  line-height: 1.6;
+}
+
+.bg-vert-d8 {
+  background: #076633; /* vert D8 */
+  border: 3px solid #f8af32; /* jaune D8 */
+}
+
+
+
+#dispo .card h5 {
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+#dispo .card p {
+  font-size: 1rem;
+  line-height: 1.4;
+  margin-bottom: 0;
+}
+
+.d8-footer i {
+  color: #fff;
+  transition: transform 0.3s, color 0.3s;
+}
+
+.d8-footer i:hover {
+  transform: scale(1.2);
+  color: #f8af32;
+}
+
+.social-links a {
+  display: inline-block;
+}
+
+
+
+
